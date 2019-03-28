@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    /*отвечает за формат импорта*/
+    "target": "es5",
+    /*во что будет компилироваться, можно указать и es6*/
+    "moduleResolution": "node",
+    /**/
+    "emitDecoratorMetadata": true,
+    /**/
+    "experimentalDecorators": true,
+    /**/
+    "strict": true,
+    "sourceMap": true,
+    /*ссылается на исходный код TS*/
+    "noEmitOnError": false,
+    /* true -не будет проводиться компиляция, если есть ошибка в ts*/
+    "noImplicitAny": false,
+    /*регулирует то, как будет обрабатываться случай, когда не указан тип.*/
+    "removeComments": false,
+    /*Удаляет все комментарии, кроме комментариев к заголовку с копией права, начиная с '/*!'*/
+    "noUnusedParameters": false
+    /*при true - будет реагировать на заявленные, но неиспользуемые в функции параметры*/
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
